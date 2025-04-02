@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|c:\\users\\kevin\\documents\\sistema_biblioteca_asp_mvc\\proyectobiblioteca\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|solutionrelative:proyectobiblioteca\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\proyectobiblioteca\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|solutionrelative:proyectobiblioteca\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\proyectobiblioteca\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|solutionrelative:proyectobiblioteca\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\proyectobiblioteca\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|solutionrelative:proyectobiblioteca\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\proyectobiblioteca\\logica\\autorlogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|solutionrelative:proyectobiblioteca\\logica\\autorlogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\proyectobiblioteca\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{06E1B554-EC04-4A77-8B1F-BA800347717B}|ProyectoBiblioteca\\ProyectoBiblioteca.csproj|solutionrelative:proyectobiblioteca\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ProyectoBiblioteca\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ProyectoBiblioteca\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T01:40:13.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProyectoBiblioteca\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProyectoBiblioteca\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T01:37:46.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ProyectoBiblioteca\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ProyectoBiblioteca\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T01:37:28.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ProyectoBiblioteca\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Global.asax.cs",
+              "RelativeToolTip": "ProyectoBiblioteca\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T01:37:10.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutorLogica.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Logica\\AutorLogica.cs",
+              "RelativeDocumentMoniker": "ProyectoBiblioteca\\Logica\\AutorLogica.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Logica\\AutorLogica.cs",
+              "RelativeToolTip": "ProyectoBiblioteca\\Logica\\AutorLogica.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T01:36:24.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Web.config",
+              "RelativeDocumentMoniker": "ProyectoBiblioteca\\Web.config",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\Sistema_Biblioteca_ASP_MVC\\ProyectoBiblioteca\\Web.config",
+              "RelativeToolTip": "ProyectoBiblioteca\\Web.config",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-02T01:35:12.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

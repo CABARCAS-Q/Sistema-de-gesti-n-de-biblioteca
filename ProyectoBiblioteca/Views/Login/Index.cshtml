@@ -1,0 +1,215 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/Content/css")
+<style>
+    :root {
+        --primary-color: #4e73df;
+        --secondary-color: #224abe;
+        --accent-color: #f8f9fc;
+        --text-color: #5a5c69;
+        --error-color: #e74a3b;
+        --success-color: #1cc88a;
+    }
+
+    body.bg-gradient-primary {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .card {
+        border-radius: 1rem !important;
+        overflow: hidden;
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .card-body {
+        padding: 0 !important;
+    }
+
+    .col-6 img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .p-5 {
+        padding: 3rem !important;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-center h1 {
+        color: var(--primary-color);
+        font-weight: 700;
+        margin-bottom: 2rem !important;
+        font-size: 1.75rem;
+    }
+
+    .form-control-user {
+        border-radius: 50px !important;
+        padding: 1rem 1.5rem !important;
+        margin-bottom: 1.5rem;
+        border: 2px solid #e3e6f0;
+        transition: all 0.3s;
+        font-size: 0.9rem;
+    }
+
+    .form-control-user:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+    }
+
+    .form-control-user::placeholder {
+        color: #b7b9cc;
+    }
+
+    .btn-user {
+        border-radius: 50px !important;
+        padding: 0.75rem !important;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        background-color: var(--primary-color);
+        border: none;
+        transition: all 0.3s;
+    }
+
+    .btn-user:hover {
+        background-color: var(--secondary-color);
+        transform: translateY(-2px);
+    }
+
+    .btn-user:active {
+        transform: translateY(0);
+    }
+
+    .alert {
+        border-radius: 50px !important;
+        padding: 0.75rem 1.25rem !important;
+        text-align: center;
+        font-size: 0.85rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Efectos adicionales */
+    @*@keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+        animation: fadeIn 0.6s ease-out forwards;
+    }*@
+
+    @*/* Responsive */
+    @media (max-width: 992px) {
+        .col-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .col-6 img {
+            border-radius: 1rem 1rem 0 0 !important;
+            height: 300px;
+        }
+
+        .p-5 {
+            border-radius: 0 0 1rem 1rem !important;
+        }
+    }*@
+
+    /* Decoración adicional */
+    .form-group {
+        position: relative;
+    }
+
+    .form-group:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background: var(--primary-color);
+        transition: width 0.3s ease;
+    }
+
+    .form-group:focus-within:after {
+        width: 80%;
+    }
+</style>
+</head>
+<body class="bg-gradient-primary">
+    <div class="container">
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-12 col-md-9">
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="@Url.Content("~/Imagenes/libross.jpg")" style="width: 500px;height: 500px;" />
+                            </div>
+                            <div class="col-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Bienvenido</h1>
+                                    </div>
+                                    <form class="user" action="@Url.Action("Index","Login")" method="post" >
+                                        <div class="form-group">
+                                            <input type="email" class="form-control form-control-user" name="correo" placeholder="Email" value="kevin@gmail.com">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-user" name="clave" placeholder="Password" value="789">
+                                        </div>
+                                        <div class="form-group">
+                                            @{if (ViewBag.Error != null)
+                                                {
+                                                    <div class="alert alert-danger" role="alert">
+                                                        @ViewBag.Error
+                                                    </div>
+                                                }
+                                            }
+                                        </div>
+                                        <button class="btn btn-primary btn-block btn-user" type="submit">Ingresar</button>
+
+                                    </form>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
